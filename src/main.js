@@ -1,0 +1,6 @@
+import { createApp } from 'vue'
+import App from './App.vue'
+import './index.css'
+import { Roulette } from 'vue3-roulette'
+
+createApp(App).component("roulette", Roulette).mount('#app')
